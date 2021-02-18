@@ -1,4 +1,4 @@
-<!--- Uncomment this to create a PDF with pandoc
+<!--- Uncomment this to create a PDF with pandoc and run:
 pandoc INSTALACAO.md -o doc/guia-de-instalacao.pdf -V geometry:"top=1in, bottom=1in, left=1in, right=1in" --highlight-style="zenburn"
 ---
 header-includes:
