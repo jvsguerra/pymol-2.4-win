@@ -1,8 +1,11 @@
-<---
+<!--- Uncomment this to create a PDF with pandoc
+pandoc README.md -o doc/installation-guide.pdf -V geometry:"top=1in, bottom=1in, left=1in, right=1in" --highlight-style="zenburn"
+---
 header-includes:
   - \hypersetup{colorlinks=true,
             allbordercolors={0 0 0},
             pdfborderstyle={/S/U/W 1}}
+---
 --->
 
 Open source PyMOL 2.4 for Windows
