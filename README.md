@@ -1,9 +1,9 @@
----
-header-includes:
-  - \hypersetup{colorlinks=true,
-            allbordercolors={0 0 0},
-            pdfborderstyle={/S/U/W 1}}
----
+!---
+!header-includes:
+!  - \hypersetup{colorlinks=true,
+!            allbordercolors={0 0 0},
+!            pdfborderstyle={/S/U/W 1}}
+!---
 
 Open source PyMOL 2.4 for Windows
 =====
