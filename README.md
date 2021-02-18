@@ -78,10 +78,10 @@ The filename structure is the following:
 
 ## 5. Install wheel files
 
-In the `pymol` environment, switch to download directory (`C:\Downloads`):
+In the `pymol` environment, switch to download directory (`C:\Users\username\Downloads`):
 
 ```bash
-cd C:\Downloads
+cd Downloads
 ```
 
 Then, install `pymol_launcher-2.1-cp37-cp37m-win_amd64.whl` by typing:

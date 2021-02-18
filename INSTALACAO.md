@@ -1,12 +1,12 @@
-<!--- Uncomment this to create a PDF with pandoc and run:
+<!-- Uncomment this to create a PDF with pandoc and run:
 pandoc INSTALACAO.md -o doc/guia-de-instalacao.pdf -V geometry:"top=1in, bottom=1in, left=1in, right=1in" --highlight-style="zenburn"
 ---
 header-includes:
   - \hypersetup{colorlinks=true,
             allbordercolors={0 0 0},
             pdfborderstyle={/S/U/W 1}}
----
---->
+--- 
+-->
 
 PyMOL 2.4 Open Source para Windows
 =====
@@ -77,10 +77,10 @@ A estrutura do nome do arquivo é a seguinte:
 
 ## 5. Instale os arquivos _wheel_ do PyMOL
 
-No ambiente `pymol` do conda, mude para o diretório de downloads (`C:\Downloads`):
+No ambiente `pymol` do conda, mude para o diretório de downloads (`C:\Users\usuario\Downloads`):
 
 ```bash
-cd C:\Downloads
+cd Downloads
 ```
 
 Em seguida, instale `pymol_launcher-2.1-cp37-cp37m-win_amd64.whl`, digitando:
