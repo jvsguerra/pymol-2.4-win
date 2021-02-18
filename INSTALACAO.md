@@ -23,7 +23,7 @@ Baixe o [Anaconda](https://www.anaconda.com/download) e instale-o.
 
 ## 2. Crie um ambiente no Anaconda
 
-Abra o `Anaconda Prompt` (digite-o no menu Iniciar) e execute:
+Abra o `Anaconda Prompt`, você pode abri-lo digitando `Anaconda Prompt` no barra de pesquisa, localizada no canto inferior esquerdo. Com o `Anaconda Prompt` aberto, execute:
 
 ```bash
 conda create -n pymol python=3.7
@@ -35,7 +35,7 @@ Em seguida, ative o ambiente `pymol`:
 conda activate pymol
 ```
 
-## 3. Instale os pacotes de Python necessários ao PyMOL
+## 3. Instale os pacotes de Python necessários
 
 Ainda no `Anaconda Prompt`, execute:
 
@@ -77,7 +77,7 @@ A estrutura do nome do arquivo é a seguinte:
 
 ## 5. Instale os arquivos _wheel_ do PyMOL
 
-No ambiente `pymol` do conda, mude para o diretório de downloads (`C:\Users\usuario\Downloads`):
+No ambiente `pymol` no Anaconda, mude para o diretório de downloads (`C:\Users\usuario\Downloads`):
 
 ```bash
 cd Downloads
@@ -86,7 +86,7 @@ cd Downloads
 Em seguida, instale `pymol_launcher-2.1-cp37-cp37m-win_amd64.whl`, digitando:
 
 ```bash
-pip install --no-index --find-links="%CD% pymol_launcher-2.1-cp37-cp37m-win_amd64.whl
+pip install --no-index --find-links="%CD%" pymol_launcher-2.1-cp37-cp37m-win_amd64.whl
 ```
 
 Finalmente, para instalar `pymol-2.4.0-cp37-cp37m-win_amd64.whl`, execute:
@@ -99,7 +99,7 @@ _Nota_: Se você baixou arquivos diferentes no **Passo 4**, substitua `pymol_lau
 
 ## 6. Inicie o PyMOL v2.4
 
-No ambiente `pymol` no `Anaconda Prompt`, execute:
+No ambiente `pymol` no Anaconda, execute:
 
 ```bash
 pymol

@@ -1,4 +1,4 @@
-<!--- Uncomment this to create a PDF with pandoc and run:
+<!-- Uncomment this to create a PDF with pandoc and run:
 pandoc README.md -o doc/installation-guide.pdf -V geometry:"top=1in, bottom=1in, left=1in, right=1in" --highlight-style="zenburn"
 ---
 header-includes:
@@ -6,7 +6,7 @@ header-includes:
             allbordercolors={0 0 0},
             pdfborderstyle={/S/U/W 1}}
 ---
---->
+-->
 
 Open source PyMOL 2.4 for Windows
 =====
@@ -24,7 +24,7 @@ Download [Anaconda](https://www.anaconda.com/products/individual) and install it
 
 ## 2. Create a environment on Anaconda
 
-Open `Anaconda Prompt` (type it on Start menu), and run:
+Open `Anaconda Prompt`, you can open it by typing` Anaconda Prompt` in the search bar, located in the bottom left corner. With the `Anaconda Prompt` open, run:
 
 ```bash
 conda create -n pymol python=3.7
@@ -78,7 +78,7 @@ The filename structure is the following:
 
 ## 5. Install wheel files
 
-In the `pymol` environment, switch to download directory (`C:\Users\username\Downloads`):
+In the `pymol` environment on Anaconda, switch to download directory (`C:\Users\username\Downloads`):
 
 ```bash
 cd Downloads
@@ -87,7 +87,7 @@ cd Downloads
 Then, install `pymol_launcher-2.1-cp37-cp37m-win_amd64.whl` by typing:
 
 ```bash
-pip install --no-index --find-links="%CD% pymol_launcher-2.1-cp37-cp37m-win_amd64.whl
+pip install --no-index --find-links="%CD%" pymol_launcher-2.1-cp37-cp37m-win_amd64.whl
 ```
 
 Finally, to install `pymol-2.4.0-cp37-cp37m-win_amd64.whl`, run:
@@ -100,7 +100,7 @@ _Note_: If you downloaded different files in **Step 4**, replace `pymol_launcher
 
 ## 6. Launch PyMOL v2.4
 
-In the activate `pymol` environment on `Anaconda Prompt`, run:
+In the activate `pymol` environment on Anaconda, run:
 
 ```bash
 pymol
